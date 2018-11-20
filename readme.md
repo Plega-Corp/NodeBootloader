@@ -13,3 +13,4 @@ To setup the project and upload the Arduino usbserial application firmware to an
 6. do "make dfu" (OS X or Linux - dfu-programmer must be installed first) or "make flip" (Windows - Flip must be installed first)
 
 Check that the board enumerates as "Plega Node".
+To enter DFU Mode connect pins 5 and 6 on P4
