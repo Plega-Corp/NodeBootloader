@@ -63,10 +63,6 @@
 			/** Indicates the board has hardware LEDs mounted if defined. */
 			#define BOARD_HAS_LEDS
 			/** Pin that can reset the main MCU. */
-			// #define AVR_RESET_LINE_PORT  PORTD
-			// #define AVR_RESET_LINE_DDR   DDRD
-			// #define AVR_RESET_LINE_PIN   PIND
-			// #define AVR_RESET_LINE_MASK  (1 << PD7)
 			#define AVR_RESET_LINE_PORT PORTC
 			#define AVR_RESET_LINE_DDR DDRC
 			#define AVR_RESET_LINE_MASK (1 << 7)
@@ -74,10 +70,6 @@
 			#define AVR_ERASE_LINE_PORT PORTC
 			#define AVR_ERASE_LINE_DDR DDRC
 			#define AVR_ERASE_LINE_MASK (1 << 6)
-
-			#define TX_RX_LED_PULSE_MS 3
-			#define PING_PONG_LED_PULSE_MS 100
-
 	/* Disable C linkage for C++ Compilers: */
 		#if defined(__cplusplus)
 			}
